@@ -14,10 +14,10 @@
   "homepage": "https://github.com/vasu-devs/JustHireMe#readme",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node init && vite",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "build": "tsc && vite build",
+    "build": "node init && tsc && vite build",
     "check": "npm run build",
     "preview": "vite preview",
     "tauri": "tauri"
